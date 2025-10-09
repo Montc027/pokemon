@@ -1,11 +1,12 @@
 
 
 
-
 ---
 ## 🔍 Sneak Peek
 
 Here’s what the app looks like:
+
+<img width="1558" height="837" alt="Captura de pantalla 2025-10-09 125127" src="https://github.com/user-attachments/assets/178713d5-45db-43a2-bca7-3f0598e682c0" />
 
 
 
@@ -16,6 +17,7 @@ Here’s what users can do in the app:
 - ✅ View PoKemons
 - ✅ Select your favorite Pokemon
 - ✅ Clasify your Pokemon
+- ✅ Search for your favorites Pokemon
 
 
 ---
@@ -39,17 +41,13 @@ To run the app locally, follow these steps:
 
 1. Clone the repository
 
-    git clone https://github.com/hgall3/empower-phrases-app.git
+    git clone https://github.com/Montc027/pokemon.git
 
-2. Move into the project directory
-
-    cd empowering-phrases-app
-
-3. Install dependencies
+2. Install dependencies
 
     npm install
 
-4. Start the development server
+3. Start the development server
 
     npm run dev
 
