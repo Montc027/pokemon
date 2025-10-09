@@ -1,9 +1,12 @@
+
+
+
 ---
 ## 🔍 Sneak Peek
 
 Here’s what the app looks like:
 
-
+<img width="1558" height="837" alt="Captura de pantalla 2025-10-09 125127" src="https://github.com/user-attachments/assets/178713d5-45db-43a2-bca7-3f0598e682c0" />
 
 
 
