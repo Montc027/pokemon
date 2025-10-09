@@ -53,6 +53,6 @@ To run the app locally, follow these steps:
 
 
 
-This app was built as a team by:
+This app was built by:
 
 * [Montserrat Muñoz](https://github.com/Montc027) → Developer
