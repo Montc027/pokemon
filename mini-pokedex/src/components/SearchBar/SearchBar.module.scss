@@ -1,0 +1,26 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+}
+
+.icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    user-select: none;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 2.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+
+    &:focus {
+        outline: none;
+        border-color: #ff5350;
+    }
+}
