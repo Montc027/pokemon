@@ -1,2 +1,0 @@
-# pokemon
-Mini Pokédex
