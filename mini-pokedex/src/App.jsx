@@ -1,11 +1,16 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PokemonList from './components/PokemonList/PokemonList';
-import './styles/globals.scss';   
+import PokemonDetail from './components/PokemonDetail/PokemonDetail';
 
 function App() {
   return (
-    <main>
-      <h1>Mini Pokédex</h1>
-      <PokemonList onSelect={(name) => console.log('Ver detalle de', name)} />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<PokemonList onSelect={(n) => window.alert(`Ir a /pokemon/${n}`)} />} />
+        <Route path="/pokemon/:name" element={<PokemonDetail />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
+
+export default App;

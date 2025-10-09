@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import usePokemon from '../../hooks/usePokemon';
+import { usePokemon } from '../../hooks/usePokemon';
 import useFavorites from '../../hooks/useFavorites';
 import PokemonCard from '../PokemonCard/PokemonCard';
 import SearchBar from '../SearchBar/SearchBar';
